@@ -42,6 +42,7 @@
 
 .image-rocket{
     width: 40%;
+    height: fit-content;
 }
 
 .image-rocket img{
@@ -90,5 +91,13 @@
     }
     .image-rocket{
         width: 80%;
+    }
+}
+
+
+@media screen and (max-width:400px) {
+    .section-4{
+        padding-top: 20vh;
+        padding-bottom: 30vh;
     }
 }
