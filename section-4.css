@@ -45,12 +45,12 @@
 
 .image-rocket{
     width: 40%;
-    height: fit-content;
+
 }
 
 .image-rocket img{
     width: 100%;
-    height: fit-content;
+
 }
 
 .normal-text{
@@ -91,7 +91,8 @@
         width: 100%;
     }
     .image-rocket{
-        width: 80%;
+        width: 60%;
+        height: fit-content;
     }
 }
 
