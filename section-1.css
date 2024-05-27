@@ -172,6 +172,7 @@
 
     .blob-1{
         width: 60%;
+        transform: translateX(0);
     }
     .block-one{
         width: 70%;
