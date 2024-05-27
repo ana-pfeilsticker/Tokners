@@ -1,0 +1,82 @@
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+
+.header-wraper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.logo-Tokners{
+    width: 30%;
+}
+
+.logo-Tokners-image{
+    max-width: 20rem;
+    width: 100%;
+}
+
+.nav-and-buttons{
+    display: flex;
+    width: 70%;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5vw;
+}
+
+.navigation-itens{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: fit-content;
+    gap: 2vw;
+    padding: 0;
+}
+
+.item{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
+    font-weight: bold;
+    color: #fff;
+    font-size: 1.2rem;
+}
+.buttons{
+    display: flex;
+    gap: 1vw;
+}
+
+.sign-in{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
+    font-weight: bold;
+    color: #fff;
+    font-size: 1.2rem;
+    background: none;
+    border:none;
+}
+
+.sign-up{
+    border: none;
+    border-radius:5.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #191B21;
+    background: #fff;
+    font-size: 1.2rem;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
