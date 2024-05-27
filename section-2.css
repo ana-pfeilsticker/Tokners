@@ -7,7 +7,6 @@
     height: fit-content;
     background-size: cover;
     z-index: 2;
-    margin-top: -19PX;
 }
 .section-2-wraper{
     display: flex;

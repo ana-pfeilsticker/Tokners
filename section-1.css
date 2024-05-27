@@ -147,12 +147,7 @@
 
 .blob-top-section-2{
     width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-
 }
-
 
 @media screen and (max-width:1660px) {
     .blob-1{
@@ -160,9 +155,6 @@
     }
     .block-2-card{
         height: 50vh;
-    }
-    .blob-2{
-        top: 90vh;
     }
 }
 
@@ -194,9 +186,6 @@
         width: 100%;
         height: 40vh;
         background-color: #F2F0F4;
-    }
-    .blob-2{
-        display: none;
     }
 }
 
