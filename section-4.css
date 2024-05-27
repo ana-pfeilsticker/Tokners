@@ -1,18 +1,20 @@
 .section-4{
-    background-color: transparent;
+    background-color: #F2F0F4;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     position: relative;
     width: 100%;
     height: max-content;
-    margin-top: 10vh;
-    background-image: url('assets/blobs/blob-4.svg');
-    background-size: cover;
-    padding-top: 40vh;
-    padding-bottom: 40vh;
+    padding-bottom: 3vh;
 
 
+
+}
+
+.blob-bottom-section-4{
+    width: 100%;
 }
 
 .section-4-wraper{
@@ -22,6 +24,7 @@
     height: 80%;
     z-index: 2;
     justify-content: space-between;
+    padding-top: 5vh;
 }
 
 .section-4 h2{
@@ -68,23 +71,21 @@
 
 @media screen and (max-width:2000px) {
     .section-4{
-        padding-top: 30vh;
-        padding-bottom: 20vh;
+
     }
 }
 
 @media screen and (max-width:1700px) {
     .section-4{
-        padding-top: 30vh;
+
     }
 }
 
 @media screen and (max-width:950px) {
-    .section-4{
-        padding-top: 20vh;
-    }
+
     .section-4-wraper{
         flex-direction: column-reverse;
+        align-items: center;
     }
     .texts{
         width: 100%;
@@ -96,8 +97,5 @@
 
 
 @media screen and (max-width:400px) {
-    .section-4{
-        padding-top: 20vh;
-        padding-bottom: 30vh;
-    }
+
 }

@@ -1,10 +1,15 @@
 .section-3{
     width: 100%;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     height: fit-content;
     position: relative;
+    flex-direction: column;
+}
+
+.blob-section-2-bottom{
+    width: 100%;
 }
 
 .section-3-wraper{
@@ -159,6 +164,7 @@
 
     .image-4{
         position: relative;
+        padding-top:30px ;
     }
 
     .section-3{
