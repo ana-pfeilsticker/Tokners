@@ -50,6 +50,9 @@
 
 .image-rocket img{
     width: 100%;
+    height: auto;
+    object-fit: contain; /* ou cover */
+    aspect-ratio: auto;
 
 }
 
@@ -69,17 +72,6 @@
     font-size: 1.6rem;
 }
 
-@media screen and (max-width:2000px) {
-    .section-4{
-
-    }
-}
-
-@media screen and (max-width:1700px) {
-    .section-4{
-
-    }
-}
 
 @media screen and (max-width:950px) {
 
@@ -94,9 +86,4 @@
         width: 60%;
         height: fit-content;
     }
-}
-
-
-@media screen and (max-width:400px) {
-
 }
